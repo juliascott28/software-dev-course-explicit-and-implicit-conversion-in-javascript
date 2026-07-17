@@ -34,3 +34,19 @@ let age = "25";
 let totalAge = Number(age) + 5;
 console.log("Total Age: " + totalAge);
 
+//implicit 
+let implicit = null;
+console.log(Boolean(implicit));
+
+//explicit
+let explicit = 12345
+  if (Boolean(explicit)) {
+    console.log("This is valid!");
+  } else {
+    console.log("This is not valid!");
+  } 
+  
+  let practice = "Hello, World!";
+  console.log(Boolean(practice));
+  
+  
